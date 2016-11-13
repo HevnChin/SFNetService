@@ -13,6 +13,10 @@
 		08C7C55F1DC0B7F8006E7EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C7C55D1DC0B7F8006E7EFF /* Main.storyboard */; };
 		08C7C5611DC0B7F9006E7EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C7C5601DC0B7F9006E7EFF /* Assets.xcassets */; };
 		08C7C5641DC0B7F9006E7EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C7C5621DC0B7F9006E7EFF /* LaunchScreen.storyboard */; };
+		08C7C5751DC0BB3C006E7EFF /* SFBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C7C56F1DC0BB3C006E7EFF /* SFBaseService.m */; };
+		08C7C5761DC0BB3C006E7EFF /* SFNetEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C7C5741DC0BB3C006E7EFF /* SFNetEngine.m */; };
+		08C7C57D1DC0C512006E7EFF /* NSDictionary+CustomExtends.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C7C5791DC0C512006E7EFF /* NSDictionary+CustomExtends.m */; };
+		08C7C57E1DC0C512006E7EFF /* NSString+CustumExtends.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C7C57B1DC0C512006E7EFF /* NSString+CustumExtends.m */; };
 		B1654FD2B5665E98D6E88E5C /* libPods-SFNetService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2489AC08F0EC6E3E6E0EE9B5 /* libPods-SFNetService.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +31,18 @@
 		08C7C5601DC0B7F9006E7EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08C7C5631DC0B7F9006E7EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08C7C5651DC0B7F9006E7EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C7C56C1DC0BA64006E7EFF /* SFNetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFNetService.h; sourceTree = "<group>"; };
+		08C7C56E1DC0BB3C006E7EFF /* SFBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBaseService.h; sourceTree = "<group>"; };
+		08C7C56F1DC0BB3C006E7EFF /* SFBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBaseService.m; sourceTree = "<group>"; };
+		08C7C5701DC0BB3C006E7EFF /* SFBaseServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBaseServiceDelegate.h; sourceTree = "<group>"; };
+		08C7C5711DC0BB3C006E7EFF /* SFNetConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFNetConsts.h; sourceTree = "<group>"; };
+		08C7C5731DC0BB3C006E7EFF /* SFNetEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFNetEngine.h; sourceTree = "<group>"; };
+		08C7C5741DC0BB3C006E7EFF /* SFNetEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFNetEngine.m; sourceTree = "<group>"; };
+		08C7C5781DC0C512006E7EFF /* NSDictionary+CustomExtends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CustomExtends.h"; sourceTree = "<group>"; };
+		08C7C5791DC0C512006E7EFF /* NSDictionary+CustomExtends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CustomExtends.m"; sourceTree = "<group>"; };
+		08C7C57A1DC0C512006E7EFF /* NSString+CustumExtends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CustumExtends.h"; sourceTree = "<group>"; };
+		08C7C57B1DC0C512006E7EFF /* NSString+CustumExtends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CustumExtends.m"; sourceTree = "<group>"; };
+		08C7C57C1DC0C512006E7EFF /* SFNotificationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFNotificationMacros.h; sourceTree = "<group>"; };
 		2489AC08F0EC6E3E6E0EE9B5 /* libPods-SFNetService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SFNetService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0492CEB32CC3098B7F3285 /* Pods-SFNetService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFNetService.release.xcconfig"; path = "Pods/Target Support Files/Pods-SFNetService/Pods-SFNetService.release.xcconfig"; sourceTree = "<group>"; };
 		F08EF8E04268573CBCD342DE /* Pods-SFNetService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFNetService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SFNetService/Pods-SFNetService.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,8 +106,36 @@
 		08C7C56B1DC0B82D006E7EFF /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				08C7C56C1DC0BA64006E7EFF /* SFNetService.h */,
+				08C7C56D1DC0BB3C006E7EFF /* SFNetBase */,
+				08C7C5721DC0BB3C006E7EFF /* SFNetEngine */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		08C7C56D1DC0BB3C006E7EFF /* SFNetBase */ = {
+			isa = PBXGroup;
+			children = (
+				08C7C5711DC0BB3C006E7EFF /* SFNetConsts.h */,
+				08C7C56E1DC0BB3C006E7EFF /* SFBaseService.h */,
+				08C7C56F1DC0BB3C006E7EFF /* SFBaseService.m */,
+				08C7C57C1DC0C512006E7EFF /* SFNotificationMacros.h */,
+				08C7C5701DC0BB3C006E7EFF /* SFBaseServiceDelegate.h */,
+				08C7C57A1DC0C512006E7EFF /* NSString+CustumExtends.h */,
+				08C7C57B1DC0C512006E7EFF /* NSString+CustumExtends.m */,
+				08C7C5781DC0C512006E7EFF /* NSDictionary+CustomExtends.h */,
+				08C7C5791DC0C512006E7EFF /* NSDictionary+CustomExtends.m */,
+			);
+			path = SFNetBase;
+			sourceTree = "<group>";
+		};
+		08C7C5721DC0BB3C006E7EFF /* SFNetEngine */ = {
+			isa = PBXGroup;
+			children = (
+				08C7C5731DC0BB3C006E7EFF /* SFNetEngine.h */,
+				08C7C5741DC0BB3C006E7EFF /* SFNetEngine.m */,
+			);
+			path = SFNetEngine;
 			sourceTree = "<group>";
 		};
 		3A970ED28A174C311EBFC6EF /* Pods */ = {
@@ -140,7 +184,7 @@
 		08C7C5491DC0B7F8006E7EFF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Sage;
 				TargetAttributes = {
 					08C7C5501DC0B7F8006E7EFF = {
@@ -234,9 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08C7C5761DC0BB3C006E7EFF /* SFNetEngine.m in Sources */,
 				08C7C55C1DC0B7F8006E7EFF /* ViewController.m in Sources */,
 				08C7C5591DC0B7F8006E7EFF /* AppDelegate.m in Sources */,
 				08C7C5561DC0B7F8006E7EFF /* main.m in Sources */,
+				08C7C57E1DC0C512006E7EFF /* NSString+CustumExtends.m in Sources */,
+				08C7C5751DC0BB3C006E7EFF /* SFBaseService.m in Sources */,
+				08C7C57D1DC0C512006E7EFF /* NSDictionary+CustomExtends.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +328,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -302,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -327,6 +376,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -343,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -357,6 +407,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 99KC83QESA;
 				INFOPLIST_FILE = SFNetService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sage.www.SFNetService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -370,6 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 99KC83QESA;
 				INFOPLIST_FILE = SFNetService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sage.www.SFNetService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
